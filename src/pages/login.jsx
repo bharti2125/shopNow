@@ -35,11 +35,6 @@ const Login = () => {
       const res = await axios.post(
         "http://localhost:3000/login",
         { email, password },
-        // {
-        //   headers: {
-        //     "Content-Type": "application/json",
-        //   },
-        // }
         {
           "Content-Type": "Application",
           Authorization: `Bearer ${localStorage.getItem("accessToken")}`,
