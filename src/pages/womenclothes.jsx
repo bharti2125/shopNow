@@ -413,7 +413,6 @@ const Clothes = ({ setClothData }) => {
                 onClick={() => onClickHandler(product.id)}
                 key={product.id}
               >
-                {/* <div className="col" onClick={() => Navigate(`/details/${product.id}`)} key={product.id}> */}
                 <div className="card shadow-sm">
                   <img
                     src={product.image}
